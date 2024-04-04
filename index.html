@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet"/>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
+<title>Tailwind Portofolio</title>
+</head>
+
+<body class="font-nunito"> 
+   <!--into section--> 
+   <div class="h-1/2 lg:h-screen bg-gradient-to-t from-indigo-200" relative overflow-hidden>
+   </div>
+    <!-- navbar-->
+    <nav class="w-full fixed top-0 bg-white z-10">
+        <div class="container mx-auto py-5 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <img class="w-20" src="./slogan name.png" alt="">
+                <span class="text-2xl font-bold text-indigo-900">My portofolio</span>
+            </div>
+            <ul class="hidden md:flex space-x-10 text-gay-600 font-bold text-sm uppercase">
+                <li class="hever:text-gay-600">
+                    <a href="#">Home page</a>
+            
+                </li>
+                <li class="hever:text-gay-600">
+                    <a href="#">About me</a>
+                </li>
+                <li class="hever:text-gay-600">
+                    <a href="#">services</a>
+                </li>
+                <li class="hever:text-gay-600">
+                    <a href="#">works</a>
+                </li>
+                <li class="hever:text-gay-600">
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+            <img src="./aidesign.jpg"  class="w-20 cursor-pointer" alt="">
+        <div id="hamburger" class ="space-y-1 md:hidden cursor-pointer z-20">
+    <div class="w-6 h-0.5 bg-black"></div>    
+    <div class="w-6 h-0.5 bg-black"></div> 
+    <div class="w-6 h-0.5 bg-black"></div> 
+    </div>
+    
+    <ul id="menu" class="hidden bg-indigo-900 absolute left-0 top-0 w-full p-10 rounded-3xl space-y-10 text-white text-center">
+    </li>
+    <li >
+        <a href="#">Home</a>
+    </li>
+    <li >
+        <a href="#">About me</a>
+    </li>
+    <li >
+        <a href="#">services</a>
+    </li>
+    <li >
+        <a href="#">works</a>
+    </li>
+    <li >
+        <a href="#">Contact</a>
+    </li>  
+    </ul>
+    </div>
+    </nav>
+ <div>
+                <a href="#" class="text-gray-400 hover:text-white mr-4"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="text-gray-400 hover:text-white mr-4"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-gray-400 hover:text-white mr-4"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    <div class="bloc">
+        <video autoplay="autoplay" muted="" loop="infinite" src="video1.mp4"></video>
+    </div>
+    </footer>
+        <!--intro content-->
+        <!--image-->
+        <img class="absolute bottom-0 top-1-3 lg:left-0 mx-auto  h-2/6 bg-black" src="./imageme.jpg"alt="">
+    <!--circle-->
+    <div class="hidden lg:block absolute -bottom-1/4 right-0 left-0 mx-auto w-big h-big bg-indigo-900 rounded-full"></div>
+    <!--animated text-->
+    <div class="absolute top-1-3 left-5 text-xl sm:left-10 sm:text-4xl md:left-1/4 md:text-6xl lg:left-5">
+        <span class="text-gay-600">Idriss Ahmed </span>
+        <p class="text-red-500">CAD Designer</p>
+    </div>
+    <!--texts-->
+    <div class="lg:flex flex-col rounded-md shadow-lg absolute top-1-3 bottom-0 m-auto right-10 bg-white">
+        <h1 class="text-4xl font-bold text-indigo-900">Hi,I'm Idriss</h1>
+        <p class="text-gray-400"> this is my first experience in Customer service CAD </p>
+        <a class="bg-indigo-600 text-white text-xl px-3 py-2 rounded-md font-semibold w-fit" href="#contact">Mail me if you need any support</a>
+    </div> 
+           <!-- Featured Post 1 -->
+           <div class="bg-white rounded-sm shadow-md">
+            <img src="data:image/jpeg;base64,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" alt="Post Image" class="w-full h-48 object-cover rounded-t-lg">
+            <div class="py-1">
+                <h3 class="text-xl font-semibold mb-2">AutoCAD</h3>
+                <p class="text-gray-600">AutoCAD a d'abord fonctionné sous MS-DOS en 1982. Il a ensuite été porté sur les stations de travail UNIX en 1986, puis en 1988 sur Macintosh II. La première version sous Windows date de 1992, date à laquelle l'éditeur Autodesk abandonna la plateforme Mac. À partir de 1997 seul Windows est supporté.</p>
+            </div>
+        <!-- Featured Post 2 -->
+        <div class="bg-white rounded-lg shadow-md">
+            <img src="https://xdinnovation.eu/wp-content/uploads/2023/12/Solidworks-et-la-3D-experience.png" alt="Post Image" class="w-full h-48 object-cover rounded-t-lg">
+            <div class="p-4">
+                <h3 class="text-xl font-semibold mb-2">SolidWORKS</h3>
+                <p class="text-gray-600">Le logiciel de CAO SOLIDWORKS® est une application de conception mécanique 3D paramétrique qui permet aux concepteurs d'esquisser rapidement des idées, ...</p>
+            </div>
+        <!-- Featured Post 3 -->
+        <div class="bg-white rounded-lg shadow-md">
+            <img src="https://www.mecamaster.com/mm/wp-content/uploads/2018/03/CatiaV5_Icon.png" alt="Post Image" class="w-full h-48 object-cover rounded-t-lg">
+            <div class="p-4">
+                <h3 class="text-xl font-semibold mb-2">CATIA V5</h3>
+                <p class="text-gray-600">CATIA V5 est un logiciel de CAO 3D volumique et surfacique de nouvelle génération. Il fait appel à des opérations élémentaires paramétriques pour générer ...</p>
+            </div>
+</section>
+ <!-- Category Section -->
+ <section class="bg-gray-200 py-8">
+    <div class="container mx-auto">
+        <h2 class="text-3xl font-bold mb-4">How i can help you ? Your project with :</h2>
+        <div class="flex space-x-4">
+            <span class="bg-blue-500 text-white px-2 py-1 rounded">AutoCAD 3D</span>
+            <span class="bg-blue-500 text-white px-2 py-1 rounded">sOLIDworks Design</span>
+            <span class="bg-blue-500 text-white px-2 py-1 rounded">CATIA V5 </span>
+        </div>
+    </div>
+</section>
+<!-- Footer -->
+<footer class="bg-gray-800 text-white py-4">
+    <div class="container mx-auto flex justify-between items-center">
+        <div>
+            <span class="text-gray-400">&copy; 2024 My Blog</span>
+        </div>
+        <section class="container mx-auto py-8">
+            <h2 class="text-3xl font-bold mb-4">Subscribe to Newsletter</h2>
+            <form class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
+                <input type="email" placeholder="Your Email Address" class="w-full md:w-3/4 px-4 py-2 rounded-lg border-gray-300 focus:outline-none focus:border-blue-500">
+                <button type="submit" class="w-full md:w-1/4 bg-blue-500 text-white px-4 py-2 rounded-lg">Subscribe</button>
+            </form>
+        </section>
+        <div>
+            <a href="#" class="text-gray-400 hover:text-white mr-4"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="text-gray-400 hover:text-white mr-4"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-gray-400 hover:text-white mr-4"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+</footer>
+<script src="./app.js"></script>
+</body>
+</html>
